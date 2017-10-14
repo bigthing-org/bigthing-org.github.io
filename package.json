@@ -1,7 +1,7 @@
 {
-  "name": "jonsn0w.github.io",
+  "name": "bigthing-org.github.io.git",
   "version": "1.0.0",
-  "description": "A personal website for my projects, designs and blog",
+  "description": "BigThings team blog",
   "main": "Gulpfile.js",
   "dependencies": {
     "critical": "^0.8.4",
@@ -33,14 +33,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonSn0w/JonSn0w.github.io.git"
+    "url": "git+https://github.com/bigthing-org/bigthing-org.github.io.git"
   },
   "author": "Brett Stevenson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JonSn0w/JonSn0w.github.io/issues"
+    "url": "https://github.com/bigthing-org/bigthing-org.github.io/issues"
   },
-  "homepage": "https://github.com/JonSn0w/JonSn0w.github.io#readme",
+  "homepage": "https://github.com/bigthing-org/bigthing-org.github.io#readme",
   "jspm": {
     "dependencies": {
       "jquery": "npm:jquery@^3.2.1"

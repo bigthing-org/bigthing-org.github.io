@@ -18,12 +18,15 @@
 
     <!-- Banner -->
     <section id="banner">
-      <div class="inner">
-        <h2>{{ site.title }}</h2>
+		<div class="inner">
+		<div class="img-container">
+			<img src="/images/logo.png" class="resume-image"/>
+		</div>
+		<h2>{{ site.title }}</h2>
         <p>{{ site.description }}
           <br/ ></br/></p>
         <ul class="actions">
-          <li><a href="#one" class="button special">做大事团队介绍</a></li>
+          <li><a href="#one" class="button special">BigThings团队介绍</a></li>
             <p></p></p>
         </ul>
       </div>
@@ -73,45 +76,7 @@
         {% endif %}
       {% endfor %}
     </section>
-
-    <!-- Three -->
-    <section id="three" class="wrapper style3 special">
-    <div class="inner">
-    <header class="major">
-      <h2>Projects</h2>
-      </header>
-      <ul class="features">
-      <li class="icon fa-code">
-        <h3>Hyde</h3>
-        <p>An Electron-based markdown editor that aims to improve the accessibility of Jekyll as a blogging platform for developers and non-developers, alike.</p>
-      <li class="icon fa-headphones">
-        <h3>PlayMusic</h3>
-        <p>A Rainmeter skin that provides Google Play Music users the ability to access their music tastefully on their desktop.</p>
-      </li>
-      <li class="icon fa-laptop">
-        <h3>Atomic Design</h3>
-        <p>A theme that provides a dark, modern, and refined interface to Atom, featuring modifications that focus on improving the user experience and adaptability.</p>
-      </li>
-      <!-- <li class="icon fa-code">
-          <h3>Atomic Monokai</h3>
-        <p> A monokai-flavored syntax highlighting theme for Atom,  which is strategically structured to ensure accurate highlighting for each language.</p>
-      </li> -->
-      <li class="icon fa-github">
-        <h3>GitHub Calendar</h3>
-        <p>A Rainmeter skin that displays the user's GitHub contribution calendar from their profile onto their desktop.</p>
-          </li>
-    <!-- <li class="icon fa-heart-o">
-          <h3>Aenean Primis</h3>
-        <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-      </li>
-      <li class="icon fa-flag-o">
-        <h3>Tortor Ut</h3>
-           <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-      </li> -->
-    </ul>
-    </div>
-  </section>
-
+	
     <!-- CONTACT -->
     <section id="four" class="wrapper style4">
       <div class="inner">
@@ -121,7 +86,6 @@
         </header>
         <ul class="actions vertical">
           <li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Contact</a></li>
-          <li><a href="{{ '/subscribe/' | prepend: site.baseurl }}" class="button fit">Mailing List</a></li>
         </ul>
       </div>
     </section>
